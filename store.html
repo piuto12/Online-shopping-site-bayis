@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ploto Online Clothing Store</title>
+    <link rel="stylesheet" href="styli.css">
+</head>
+<body>
+    <header>
+        <h1> Ploto Online Clothing Store</h1>
+        <nav>
+            <ul>
+                <li><a href="store.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="singup.html">singup</a></li>
+                <div class="topnav"></div>
+                <input type="text" placeholder="Search..">
+              </div>
+              </ul>
+        </nav>
+    </header>
+    <br>
+    <div class="slider-container">
+        <div class="slider">
+          <div class="slide"><img src="https://sslimages.shoppersstop.com/sys-master/root/h06/ha6/31774033772574/Main-Banner-Static-Web-1840x500_Eoss-23.jpg" style="width:100%;"></div>
+         <div class="slide"><img src="https://sslimages.shoppersstop.com/sys-master/root/hec/h05/32303729967134/USPA-web_6829mpl.jpg" style="width:100%"></div>
+          <div class="slide"><img src="https://sslimages.shoppersstop.com/sys-master/root/h64/h70/32117147140126/ss-web_270224d.jpg"  style="width:100%"></div>
+        </div>
+        <a><button class="prev" onclick="moveSlide(-1)">&#129144</button></a>
+        <a><button class="next" onclick="moveSlide(1)">&#129146</button></a>
+        </div>
+      <script>
+      let slideIndex = 1;
+      
+      function showSlide(n) {
+        let slides = document.getElementsByClassName("slide");
+        
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }  
+        slides[slideIndex - 1].style.display = "block";  
+      }
+      function moveSlide(n) 
+      {
+        showSlide(slideIndex += n);
+      }
+      showSlide(slideIndex);
+      </script>  
+      <br>
+      <div class="pro43">
+        <h3> OFFER </h3>
+       </div>
+      <div class="image-container">
+        <img src="https://sslimages.shoppersstop.com/sys-master/root/hf2/h2b/32015947137054/Indian-Wear_online-exclusive-4-widget-web_0289.jpg" alt="Image 1">
+        <img src="https://sslimages.shoppersstop.com/sys-master/root/hf8/h39/32015951626270/menswear_online-exclusive-4-widget-web_2009.jpg" alt="Image 2">
+        <img src="https://sslimages.shoppersstop.com/sys-master/root/hdf/h2b/32015950774302/Western_online-exclusive-4-widget-web_9023.jpg" alt="Image 3">
+      </div>
+      <div class="pro43">
+        <h3> SUM PRODUCTS</h3>
+       </div>
+      <div class="photo">
+        <div class="h"><a ></a>
+        <a href="pro1.html"><button><img src="https://m.media-amazon.com/images/I/61hKfacCNRL._AC_UL480_FMwebp_QL65_.jpg" alt="images2"></button></a>
+        <a href="pro2.html"><button><img src="https://m.media-amazon.com/images/I/71DGiatbAdL._AC_UL480_QL65_.jpg" alt="images3"></button></a>
+        <a href="pro3.htm"><button><img src="https://m.media-amazon.com/images/I/61UwVGQZs2L._AC_UL480_QL65_.jpg" alt="images4"></button></a>
+        <a href="pro4.html"><button><img src="https://m.media-amazon.com/images/I/617UyikiUsL._AC_UL480_QL65_.jpg" alt="images5"></button></a>
+        <a href="pro5.html"><button><img src="https://m.media-amazon.com/images/I/617iaru7bLL._AC_UL480_QL65_.jpg" alt="images6"></button></a>
+      </div></div>
+      <div class="footer">
+  <div class="row">
+    <div class="column">
+      <h3>DOWNLOAD OUR APP</h3>
+            <p>Download app for android and ios moble phone</p> 
+             <div class="footer-col2">
+             <img src="https://freepngimg.com/download/android/58438-play-app-android-now-button-store.png" alt="" width="200" height="100">
+             <p>Download app for android and ios moble phone</p>
+             </div>   </div>
+  
+      <div class="column1">
+      <h2>Ploto Online Clothing Store</h2>
+      <br>
+      <h3>Useful Links</h3>
+      <p><a href="">Blog Post</a></p>
+      <p><a href="">Return Policy</a></p>
+      <p> <a href="">Join Affiliate</a></p>
+      <p><a href="">Coupons</a></p>
+      
+  </div>
+  <div class="column2">
+    <div class="column2">  
+    </div>
+     <h2>Follow</h2>
+      <p>Facebook</p>
+      <p>Twitter</p>
+      <p>Instagram</p>
+      <p>YouTube</p>
+  </div>
+</div>
+</div>
+</body>
+</html>

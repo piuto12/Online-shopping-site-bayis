@@ -1,0 +1,383 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333333;
+}
+
+header {
+    background-color: DarkOliveGreen;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    padding: 70px ;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* signup */
+body {
+    font-family: Arial, sans-serif;
+    background-color: LemonChiffon;
+}
+
+.container {
+    
+    max-width: 400px ;
+    margin: 50px auto;
+    background-image:url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgb(4, 4, 4);
+}
+
+.signup-form {
+    text-align: center;
+    h2{margin-bottom: 20px;
+        color: #b273fa;}
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.a{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color:#007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  background-color: #0056b3;
+}
+.end{
+    align-items: center;
+}
+
+.slider-container {
+  position:relative;
+  width: auto;
+  max-width: 900px;
+  margin:auto;
+}
+
+.slider {
+  display: flexz;
+ 
+}
+
+.slide {
+  flex: auto;
+}.slide img {
+ 
+  display:inline-block;
+  align-content: center;
+}
+.prev,.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: #007bff00;
+  font-weight: bold;
+  font-size: 18px;
+  transform: translateY(-50%);
+  border-radius: 0 3px 3px 0;
+  border: #ffffff00;
+  user-select:auto;
+}
+.prev {
+  left: 0px;
+}
+.next {
+  right: 0px;
+}
+.group {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.pro {
+  content: "";
+  clear: both;
+  display: table;
+}
+.image-container{
+  position: relative;
+  image-rendering: auto;
+  margin: 30px 30px 30px ;
+  flood-color: #f8cd7d;
+  text-align: center;
+  border-image-outset: 300px;
+}
+.photo{
+  position: relative;
+  text-align:center;
+  margin: 20px;
+  width: auto;
+  size-adjust: auto;
+  line-break: unset;
+  border:khaki;
+  flex-basis: 30%;
+  
+  
+}
+.h{
+  flex-basis: 25%;
+  padding: 10px ;
+  min-width: 200px;
+  margin-bottom: 50px;
+ transition:ease-in 0.5s;
+}
+.h img{
+   width: 100%;
+
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+  .c {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.c:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: auto;
+  left:auto;
+  background-color: #ff97901b;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.footer{
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 30px  15% 20px;
+  background-color: #000000;
+}
+.foote h3{
+  color: #000000;
+}
+.row {
+  display: flex; 
+  }
+  .column h3{
+    color: #7cbbff;
+  }
+.column1 h2{
+  color: #90ffd6;
+}
+.column1 h3{
+  color: #7cbbff;
+}
+.column1 {
+  flex: 100%;
+  font-size: 15px;
+  text-align: center;
+  
+}
+.column2 h2{
+  color:#7cbbff;
+}
+.column2{
+  flex: 10px;
+  padding: 5px;
+  right: 10px;  
+}
+/* p2 */
+.col-1{
+  margin: 10px 80px;
+
+}
+.single-product{
+  margin-top: 80px ;
+}
+.single-product .col-2 img{
+  padding: 0;
+}
+.single-product .col-2 {
+  padding: 40px;
+}
+.single-product h4{
+  font-size: 22px;
+  font-weight: bold;
+}
+.select-hide{
+  display: none;
+}
+.single-product select{
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}
+.single-product{
+  width:auto;
+  height: 40px;
+  padding-left: 10px;
+ font-size: 20px;
+ margin-right: 1px;
+}
+input:focus{
+  outline: none;
+}
+.pro43 h3{
+  text-decoration: underline;
+  color: #000000;
+  font-size:large;
+  font-weight: bold;
+  text-align: center;
+ }
+@media screen and (max-width: 300px) 
+ { span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+ }
+ /* contact */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.z{
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: translateY(1px);
+}
